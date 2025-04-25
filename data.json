@@ -1,0 +1,563 @@
+{
+  "slides": [
+    {
+      "type": "video",
+      "src": "media/video/fakeopen.m4v",
+      "notes": "Slide -3: Fake open",
+      "loop": false
+    },
+    {
+      "type": "video",
+      "src": "media/video/fakebreak.m4v",
+      "notes": "Slide -2: Fake break",
+      "loop": false
+    },
+    {
+      "type": "video",
+      "src": "media/video/nothing.m4v",
+      "notes": "Slide -1: Nothing",
+      "loop": false
+    },
+    {
+      "type": "video",
+      "src": "media/video/hammering.m4v",
+      "notes": "Slide 0: Fixing stuff",
+      "loop": false
+    },
+    {
+      "type": "video",
+      "src": "media/video/intro.m4v",
+      "notes": "Slide 1: Say nothing. Just wait for it to play",
+      "loop": false
+    },
+    {
+      "type": "video",
+      "src": "media/video/whoami.m4v",
+      "notes": "Slide 2: True max experience",
+      "loop": true
+    },
+    {
+      "type": "video",
+      "src": "media/video/overview.m4v",
+      "notes": "Slide 3: This talk is about an immenent fully self replicating AI worm, that will spread to millions of computers dropping ransomware along the way, and collectively costing the world billions of dollars. Of course extraordinary claims require extraordinary evidence, so my job today is to prove to you today beyond a shadow of a doubt that this is not only possible, but it's here, with the technology",
+      "loop": false
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/fancyworm.m4v",
+      "notes": "Slide 4: Moris, self replicating, no external dependancies, spread exponentialy"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/percentagemorris.m4v",
+      "notes": "Slide 5: 20% of the internet, which was 6000 devices, reinfection eventually took down these devices"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morris1stway.m4v",
+      "notes": "Slide 6: Compiled with debug enabled, allows RCE"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morris1stmodern.m4v",
+      "notes": "Slide 7: Python Flask same, RCE if debug"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morris2nd.m4v",
+      "notes": "Slide 8: Memory unsafe language, bufferoverflow"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morris2ndmodern.m4v",
+      "notes": "Slide 9: White House Cyber Director Harry Coker, memory unsafe languages"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/directorme.m4v",
+      "notes": "Slide 10: Me with Harry"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/whitehousedown.m4v",
+      "notes": "Slide 11: new administration took it down"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morris3rdway.m4v",
+      "notes": "Slide 12: IP based authentication RCE for lateral movement"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morris3rdmodern.m4v",
+      "notes": "Slide 13: Broken Authentication owasp top 2"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morris4th.m4v",
+      "notes": "Slide 14: Credential harvesting and guessing for lateral movement"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morris4thmodern.m4v",
+      "notes": "Slide 15: All modern red teams use this technique"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morrisformulapt1.m4v",
+      "notes": "Slide 16: Exploitation step"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morrisformulapt2.m4v",
+      "notes": "Slide 17: Post-exploitation step, lateral movement, is this formula repeatable?"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morriscost.m4v",
+      "notes": "Slide 18: 10 million dollars or 29 million today, is this repeatable?"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morriscopycats.m4v",
+      "notes": "Slide 19: Here are some of the most expensive ones"
+    },
+    {
+      "type": "video",
+      "src": "media/video/morris/morriscopycatsgraph.m4v",
+      "notes": "Slide 20: Getting more expensive over time, notpetya crossed into tens of billions using an NSA windows exploit kit that leaked"
+    },
+    {
+      "type": "video",
+      "src": "media/video/bitcoin.m4v",
+      "notes": "Slide 21: Ransomware is accelerating things... Morris profited nothing, now we can put a dollar on each machine"
+    },
+    {
+      "type": "video",
+      "src": "media/video/bitcoinpt2.m4v",
+      "notes": "Slide 23: Just being silly"
+    },
+    {
+      "type": "video",
+      "src": "media/video/wannacrywallets.m4v",
+      "notes": "Slide 24: You can litearlly see the wallets from NotPetya"
+    },
+    {
+      "type": "video",
+      "src": "media/video/whatabouthumans.m4v",
+      "notes": "Slide 25: We need to take a break from worms, and talk about how people hack systems"
+    },
+    {
+      "type": "video",
+      "src": "media/video/aptmusic.m4v",
+      "notes": "Slide 26: Let it play"
+    },
+    {
+      "type": "video",
+      "src": "media/video/nmapresults.m4v",
+      "notes": "Slide 27: You might do some recon on the parameter of your target, and find an interesting service"
+    },
+    {
+      "type": "video",
+      "src": "media/video/googlecve.m4v",
+      "notes": "Slide 28: You then might google that service looking for CVE's, and in this case, we found one, then we might google for a POC, and that gives us everything we need to get a foothold in our target"
+    },
+    {
+      "type": "video",
+      "src": "media/video/foothold.m4v",
+      "notes": "Slide 29: We may get out first foothold through social engineering, a CVE, or a misconfiguration"
+    },
+    {
+      "type": "video",
+      "src": "media/video/postexploitation.m4v",
+      "notes": "Slide 30: However we get in, we then flip over to post exploitation, where we look for credentials on the new system, in this case I'm shamelessly using TruffleHog to find an AWS key, and then we can use that AWS key to attack more systems. We may look for session cookies, SSH keys, NTLM credentials, and we may also just look at the new network access this host has. This is a very linear attack chain, we don't copy the hacker for every host we take over, and we typically only run one exploit at a time. </br> When I used to do red teaming, typically within about a week we could get access to any asset we wanted to, using this pre and post exploitation method."
+    },
+    {
+      "type": "video",
+      "src": "media/video/cc.m4v",
+      "notes": "Slide 31: Usually we would use a malware framework like Metasploit to hook into systems and put them in a loop awaiting new commands. "
+    },
+    {
+      "type": "video",
+      "src": "media/video/metasploit.m4v",
+      "notes": "Slide 32: Metasploit can do complex network routing if a host can't talk to the internet, but can talk to a host you've already infected, and it also comes with thousands of exploitation scripts and tools."
+    },
+    {
+      "type": "video",
+      "src": "media/video/formula.m4v",
+      "notes": "Slide 33: Our human formula isn't actually that different from our worm formula. It's still broken into pre and post exploitation, except we now have access to thousands of exploits instead of a small number, and we can do some amount of troubleshooting as we go."
+    },
+    {
+      "type": "video",
+      "src": "media/video/lotsofcves.m4v",
+      "notes": "Slide 34: Just to quantify that, there are over 25,000 CVEs that are considered critical severity."
+    },
+    {
+      "type": "video",
+      "src": "media/video/cisa1month.m4v",
+      "notes": "Slide 35: Cisa estimates it takes a little more than a month to patch a typical Critical CVE."
+    },
+    {
+      "type": "video",
+      "src": "media/video/googlebadnumbers.m4v",
+      "notes": "Slide 36: And google watched several critical CVE's get exploited, and found the majority were exploited in less than a month of a patch being made available."
+    },
+    {
+      "type": "video",
+      "src": "media/video/flashpoint.m4v",
+      "notes": "Slide 37: Flashpoint found on average a new CVE is exploited in less than a week's time. </br>If all of that is true why don't we see companies getting hacked all the time? I think the short answer is, we do. "
+    },
+    {
+      "type": "video",
+      "src": "media/video/wedo.m4v",
+      "notes": "Slide 38: Here's a few headlines from just the last week. The main deterrent we have against hacking is fear of prosecution, and unfortunately this leads to a lot of fearless teenagers being behind some of the largest attacks. Literally."
+    },
+    {
+      "type": "video",
+      "src": "media/video/scriptkiddies.m4v",
+      "notes": "Slide 39: Literally. And if AI is currently coding in the 90th percentile, then surely there's a way to put these two things together, and have an AI worm capable of hacking at the same level a teenager is."
+    },
+    {
+      "type": "video",
+      "src": "media/video/letsmakethatworm.m4v",
+      "notes": "Slide 40: Just let it play."
+    },
+    {
+      "type": "video",
+      "src": "media/video/noresourceissues.m4v",
+      "notes": "Slide 41: Before making our worm, I wanted to address something a lot of people are probably thinking. You don't need a fancy GPU or a ton of RAM to run an LLM. To demonstrate this I have a 3b parameter model running on my phone on the left, and an 8 billion parameter model running on the right. "
+    },
+    {
+      "type": "video",
+      "src": "media/video/eightbackdoor1.m4v",
+      "notes": "Slide 42: And to further drive this point home, some of you may have read this blog I wrote last month about finding a probable backdoor in my smart bed, well, I got an LLM running on my smart bed, and here it is in real time. \n All of this is to say, we're not resource constrained, there are capable models that will run on most systems."
+    },
+    {
+      "type": "video",
+      "src": "media/video/eightbackdoor2.m4v",
+      "notes": "Slide 42.5: And to further drive this point home, some of you may have read this blog I wrote last month about finding a probable backdoor in my smart bed, well, I got an LLM running on my smart bed, and here it is in real time. \n All of this is to say, we're not resource constrained, there are capable models that will run on most systems."
+    },
+    {
+      "type": "video",
+      "src": "media/video/refusals.m4v",
+      "notes": "Slide 43: The next problem you may be thinking of, is most LLM's refusing to do this type of work. These refusals are put in place by AI safety teams, so it should intuitively make sense we can create a model that doesn't have these refusals, but the models cost millions of dollars to make, and we need a cheap solution. Before we get there, let's talk about how the models work"
+    },
+    {
+      "type": "video",
+      "src": "media/video/blackhole.m4v",
+      "notes": "Slide 44: How many of you have heard LLM's are just statistical models that suck up tons of data and based on all that data they predict what word will come next?"
+    },
+    {
+      "type": "video",
+      "src": "media/video/prediction.m4v",
+      "notes": "Slide 45: It is true the output of an LLM is a next word prediction, but I think to just call the LLM a statistical model, does a disservice, and leads to misconceptions"
+    },
+    {
+      "type": "video",
+      "src": "media/video/degrade.m4v",
+      "notes": "Slide 46: Like the idea models of tomorrow will just train on the output of models of today and only get worse over time."
+    },
+    {
+      "type": "video",
+      "src": "media/video/moregoingon.m4v",
+      "notes": "Slide 47: On some level we should intuitively know there's more going on, if our LLM trains on world of warcraft chat, Tweets, and Ikea catalogues, why would it behave like a chatbot, and not like an Ikea catalog?."
+    },
+    {
+      "type": "video",
+      "src": "media/video/varients.m4v",
+      "notes": "Slide 48: Moreover, why are there so many different variants of the same open source model? We can see Meta put out dozens of Llama variants"
+    },
+    {
+      "type": "video",
+      "src": "media/video/alignment.m4v",
+      "notes": "Slide 49: An LLM will typically go through multiple alignment steps after the initial data training, and typically the safety alignment is done at the very end."
+    },
+    {
+      "type": "video",
+      "src": "media/video/basellama.m4v",
+      "notes": "Slide 50: We find a huge difference in the abilities of these variants, in what they call their base model, we ask it how to make a sandwich and it tells us that Newark is the capital of NJ. Which is a true fact. But not what we asked."
+    },
+    {
+      "type": "video",
+      "src": "media/video/llamainstruct.m4v",
+      "notes": "Slide 51: In a different variant that meta fine tuned to behave more like a chatbot, we actually get our sandwich instructions."
+    },
+    {
+      "type": "video",
+      "src": "media/video/sandwhichthink.m4v",
+      "notes": "Slide 52: And in a 3rd variant, one that's designed to think, we get a lot of introspection and insights about sandwich building before we get our steps. What's kind of crazy about thinking models is the output is evaluated against a reward function using a simple reinforcement learning technique, but the thinking step isn't evaluated as part of the reward function. Which means the models sort of teach themselves what and how to think."
+    },
+    {
+      "type": "video",
+      "src": "media/video/unlearnsafety.m4v",
+      "notes": "Slide 53: This of course begs the question, can the safety step be easily unlearned with the same methods? And the answer shouldn't surprise you, that yes you can do this. But what might surprise you is just how cheap and easy it is. For example, it took me about 30 minutes on a gaming GPU to remove."
+    },
+    {
+      "type": "video",
+      "src": "media/video/archdiagram.m4v",
+      "notes": "Slide 54: And to understand why, we have to break away from the idea these models are simple statistical models, and we need to take a look at some of the underlying architecture."
+    },
+    {
+      "type": "video",
+      "src": "media/video/embedding.m4v",
+      "notes": "Slide 55: One place to start is to understand how LLM's give meaning to words. All words are stored in what I'm going to call, Idea space. In this space, every coordinate in the space represents an idea, and the LLM stores the coordinates for every word. There's a place in this space that represents the idea of a cat, and in that place, we will find the word cat."
+    },
+    {
+      "type": "video",
+      "src": "media/video/manwoman.m4v",
+      "notes": "Slide 56: One classic example to show that the space itself has meaning, without the words, is to plot the words, man, and woman,  and plot the direction and distance between those two ideas"
+    },
+    {
+      "type": "video",
+      "src": "media/video/king.m4v",
+      "notes": "Slide 56: And then to take the word King, and add that distance and direction"
+    },
+    {
+      "type": "video",
+      "src": "media/video/queen.m4v",
+      "notes": "Slide 57: You will end up roughly at the coordinates for queen. This shows there is meaning in the idea space itself, independent for the words we find there."
+    },
+    {
+      "type": "video",
+      "src": "media/video/embedding2.m4v",
+      "notes": "Slide 58: The embedding, is the part of the model that stores all the coordinates for all the words, it's the models dictionary."
+    },
+    {
+      "type": "video",
+      "src": "media/video/purpleelephant.m4v",
+      "notes": "Slide 59: But what's interesting is we can save the coordinates for an idea that has no English word. Like the idea for a purple elephant, we can store those coordinates in a different part of the model"
+    },
+    {
+      "type": "video",
+      "src": "media/video/purplepluselephant.m4v",
+      "notes": "Slide 60: And if we add the vector for purple and the vector for elephant, we'll get to the coordinate for our purple elephant. How to use our tokens to navigate to our ideas, is saved in another part of the model."
+    },
+    {
+      "type": "video",
+      "src": "media/video/samefact.m4v",
+      "notes": "Slide 61: Think about how cool that is, the model can know a fact, and then it can use different combinations of words to arrive at that fact that it knows"
+    },
+    {
+      "type": "video",
+      "src": "media/video/refusalfacts.m4v",
+      "notes": "Slide 62: When you realize it has all these different facts saved as coordinates, the fact of how to hack port 3306, and the fact of refusing, you can start to understand why it might be so cheap to remove the refusal behavior. The hacking facts are still in there, we just have to tweak some things."
+    },
+    {
+      "type": "video",
+      "src": "media/video/refusalpaper.m4v",
+      "notes": "Slide 63: And in fact, there was a paper showing the models refusal is stored as a single set of coordinates, tacked on at the very end of training, that can be removed with very little effort."
+    },
+    {
+      "type": "video",
+      "src": "media/video/rlh.m4v",
+      "notes": "Slide 64: To demonstrate this, I used a form of reinforcement learning where I just had the model produce 2 outputs, and I selected which one I liked better"
+    },
+    {
+      "type": "video",
+      "src": "media/video/temp.m4v",
+      "notes": "Slide 65: So instead of the model giving me the most likely next word, it would introduce a little bit of randomness, so here maybe instead of picking dog, we pick cat, or dorm. It would do that twice, and it would ask me which answer I preferred. My goal was just to pick the answer that didn't refuse my question. "
+    },
+    {
+      "type": "video",
+      "src": "media/video/bomb1.m4v",
+      "notes": "Slide 66: And my question was, how do you build a nuclear bomb? Here's the outputs it produced, both are refusals, but the second answer looks a little better.."
+    },
+    {
+      "type": "video",
+      "src": "media/video/bomb2.m4v",
+      "notes": "Slide 67: And so we go on like that picking the answer we like the best"
+    },
+    {
+      "type": "video",
+      "src": "media/video/gaming.m4v",
+      "notes": "Slide 68: I used an rtx 3090 on a gaming rig, which honestly I think was overkill, and after less than 30 minutes of me picking answers"
+    },
+    {
+      "type": "video",
+      "src": "media/video/finalbomb.m4v",
+      "notes": "Slide 69: we get super detailed instructions on how to make a bomb.... I never told it how to make a bomb, those facts were stored in the model the whole time. This should start to shake the fallacy that LLM's are just statistical next word predictors, and importantly for us, we have a lot of models that already know how to hack stuff, we don't need to train them as much as you think."
+    },
+    {
+      "type": "video",
+      "src": "media/video/wormarch.m4v",
+      "notes": "Slide 70: So now that we have our hacking LLM, let's go over some core requirements for our worm. We can't depend on anything external, not even google. Our worm needs to be able to spread in an air gap, and we need to be resilient to 3rd parties trying to shut us down. We also need a run book for pre-exploitation, and a different run book for post exploitation, just like a teenager would, we'll need some form of supervisor, to keep us on track, give us resources and set us to the correct mode, and most importantly, we need to be able to fully self propagate, model and all, onto the target system. We'll be using llama 8b deep reasoning model, which is about 15gb."
+    },
+    {
+      "type": "video",
+      "src": "media/video/supervisor.m4v",
+      "notes": "Slide 71: Our supervisor is going to be code orchestrating the model, supplying it with a code environment, with kali linux tools, and instructing it what host to hack"
+    },
+    {
+      "type": "video",
+      "src": "media/video/preandpost.m4v",
+      "notes": "Slide 72: Our supervisor will also set the model in either pre-exploitation mode or post exploitation mode depending on if we just compromised a host, or not"
+    },
+    {
+      "type": "video",
+      "src": "media/video/prestep.m4v",
+      "notes": "Slide 73: Pre exploitation our supervisor picks a random host from all the networks the infected machine is sitting on, runs some recon tools, and feeds the results into out LLM"
+    },
+    {
+      "type": "video",
+      "src": "media/video/poststep.m4v",
+      "notes": "Slide 74: Post exploitation our supervisor harvests credentials off the recently infected machine and feeds them into our LLM to exploit, things like AWS keys, SSH keys, Browser session cookies, NTLM hashes, etc..."
+    },
+    {
+      "type": "video",
+      "src": "media/video/prereal.m4v",
+      "notes": "Slide 75: So in practice our pre-exploitation step might look something like this, we feed an nmap scan into our LLM and tell it to exploit the host. We tell the LLM it can run code, in these code blocks"
+    },
+    {
+      "type": "video",
+      "src": "media/video/codemonitor.m4v",
+      "notes": "Slide 76: Our supervisor monitors for these code blocks, executes the code, and injects the result into the context window. So let's try it out."
+    },
+    {
+      "type": "video",
+      "src": "media/video/prefail.m4v",
+      "notes": "Slide 77: In practice, it's pretty rough. The LLM isn't using our code blocks. Instead it's putting code in markdown, which meta probably aligned it to do. So we probably need to do another traunch of alignment ourselves, to teach it to use our code blocks instead."
+    },
+    {
+      "type": "video",
+      "src": "media/video/finetuning.m4v",
+      "notes": "Slide 78: The way we're going to do that, is we're going to create thousands of hacking guides exploiting thousands of CVE's both from synthetic data, as well from public hacking datasets available on hugging face"
+    },
+    {
+      "type": "video",
+      "src": "media/video/transformdata.m4v",
+      "notes": "Slide 79: We'll need to transform this data to include our code blocks, as well as include some common troubleshooting steps so that it looks like the data we're training on matches the end behavior we're looking for."
+    },
+    {
+      "type": "video",
+      "src": "media/video/trainforabit.m4v",
+      "notes": "Slide 80: So we'll use some cloud compute to do this fine tuning step, we'll train for a bit and try again."
+    },
+    {
+      "type": "video",
+      "src": "media/video/pressh.m4v",
+      "notes": "Slide 81: So here we go, post training, and we get a much better result. We successfully run a command, the model correctly assesses a credential spraying brute force attack is the best course of action, it tries to kick one off with metasploit, finds metasploit isn't installed, which is actually my fault, I meant to give it a full kali linux toolset, but all the same the model then goes to install metasploit. So this is in a great place."
+    },
+    {
+      "type": "video",
+      "src": "media/video/elasticnmappre.m4v",
+      "notes": "Slide 82: What about a more complex target? Let's try elastic search with a known CVE. This is something I would expect our teenager would have to Google and not know off the top of their head"
+    },
+    {
+      "type": "video",
+      "src": "media/video/madeupCVE.m4v",
+      "notes": "Slide 83: Here the model spends a lot more time in its thinking block before running code, it thinks it knows a CVE the host is vulnerable to"
+    },
+    {
+      "type": "video",
+      "src": "media/video/ciscocve.m4v",
+      "notes": "Slide 84: Unfortunately the CVE number is for a CISO operating system, and the mappings endpoint it thinks is vulnerable actually doesn't exist."
+    },
+    {
+      "type": "video",
+      "src": "media/video/correctcve.m4v",
+      "notes": "Slide 85: This is the correct CVE number, and this is the correct sequence of requests that we would need to send to successfully exploit the host"
+    },
+    {
+      "type": "video",
+      "src": "media/video/toomuchdata.m4v",
+      "notes": "Slide 86: If you think about it, it makes sense why it's struggling, it trained off thousands of document, only one of which had information about this CVE. If I trained it off 100 examples for each CVE, it could probably get there"
+    },
+    {
+      "type": "video",
+      "src": "media/video/expensive.m4v",
+      "notes": "Slide 87: But I had already spent way more than I wanted to. I would estimate a budget of around $100,000 dollars would get the model in a good place, especially if we include a few more training techniques, like additional reinforcement learning"
+    },
+    {
+      "type": "video",
+      "src": "media/video/buttheteen.m4v",
+      "notes": "Slide 88: I got to thinking though... a teenager wouldn't memorize all these CVE's, they would just look them up."
+    },
+    {
+      "type": "video",
+      "src": "media/video/nodeps.m4v",
+      "notes": "Slide 89: But we don't want to introduce Google as a dependency"
+    },
+    {
+      "type": "video",
+      "src": "media/video/googleban.m4v",
+      "notes": "Slide 89: because it would create a point of failure if Google banned us. It also wouldn't work in networks that control egress."
+    },
+    {
+      "type": "video",
+      "src": "media/video/rightintheface.m4v",
+      "notes": "Slide 90: It was around this point I realized the answer was staring me right in the face. We already had thousands of guides on how to hack all the CVE's, we just need to distribute them with our model, and have our supervisor supply our LLM with the right guide for the target. Then our model doesn't have to have any of the facts in its head."
+    },
+    {
+      "type": "video",
+      "src": "media/video/rag.m4v",
+      "notes": "Slide 91: This algorithm is commonly referred to as RAG, and we can do something called a vector search based on our recon data to figure out which guide is best to supply our model"
+    },
+    {
+      "type": "video",
+      "src": "media/video/raganimation.m4v",
+      "notes": "Slide 92: The way this works is we plot our complex hacking documents in idea space, and then when we plot our recon results, and search around that space, to see which document is near by. In this example, port 3306, might return mysql documents because that's the mysql port."
+    },
+    {
+      "type": "video",
+      "src": "media/video/ragdocs.m4v",
+      "notes": "Slide 93: We may also get a few documents that match, like if we search elastic search, there are 3 critical CVE guides that are a close match, and our supervisor can just have the LLM try them all, one at a time, and if there's no successful compromise after a certain number of tokens, it can just move on to the next document until we get one that works, or it's time to try a new host"
+    },
+    {
+      "type": "video",
+      "src": "media/video/tweakdata.m4v",
+      "notes": "Slide 94: We do need to transform our data a little bit so that it's a little more instructional, but that part's easy"
+    },
+    {
+      "type": "video",
+      "src": "media/video/scarygood.m4v",
+      "notes": "Slide 95: When I was done with all that, I was actually a little taken aback by how good the model was at hacking stuff, following the guides, and doing a small amount of troubleshooting, like adding the -k flag to curl if the server used a self signed certificate. I'm showing the same elastic example we saw before, and it has no problem exploiting the remote host. Those decimal numbers are the contents of the etc/passwd file on the remote host"
+    },
+    {
+      "type": "video",
+      "src": "media/video/ransomwarepost.m4v",
+      "notes": "Slide 96: After we infect a remote host, most of the time we'll run our post exploitation toolkit, but randomly maybe 1 in 5 times, we'll drop ransomware. Finding out the right number here, of what % of the time to drop ransomware, is probably going to be the most critical thing to get right, if we want to maximize ransom revenue, while still leaving plenty of carriers to keep spreading."
+    },
+    {
+      "type": "video",
+      "src": "media/video/fridge.m4v",
+      "notes": "Slide 97: So what have we learned from all this? For starters I think we're going to have a real argument in the future between a CISO and a head of facilities, about whether it's best to cut the infected smart fridge off from the internet, or to throw it away."
+    },
+    {
+      "type": "video",
+      "src": "media/video/anthropic.m4v",
+      "notes": "Slide 98: I also think Anthropic's assessment that none of the models today are capable of dangerous activities is just not accurate."
+    },
+    {
+      "type": "video",
+      "src": "media/video/cabill.m4v",
+      "notes": "Slide 99: Here in California our local senator Scott Weiner tried to introduce a bill that would regulate AI models that can cause half a billion dollars in hacking damages, the truth is though, we have non-AI worms that have caused more than 10x that amount of damages, I don't think it's a stretch to say the open source models today are more than capable of hitting this limit. This bill didn't pass. Nor do I think this bill would have stopped the 100 billion dollar worm that's coming, even if it did."
+    }
+  ],
+  "audio": [
+    {
+      "src": "media/audio/morrisaudio.mp3",
+      "startSlide": 7,
+      "endSlide": 23,
+      "loop": true
+    },
+    {
+      "src": "media/audio/background2.mp3",
+      "startSlide": 29,
+      "endSlide": 40,
+      "loop": true
+    },
+    {
+      "src": "media/audio/background3.mp3",
+      "startSlide": 43,
+      "endSlide": 83,
+      "loop": true
+    },
+    {
+      "src": "media/audio/background4.mp3",
+      "startSlide": 85,
+      "endSlide": 104,
+      "loop": true
+    }
+  ]
+}
+
