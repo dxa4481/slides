@@ -549,6 +549,12 @@
     {
       "src": "media/audio/background3.mp3",
       "startSlide": 43,
+      "endSlide": 56,
+      "loop": true
+    },
+    {
+      "src": "media/audio/background6.mp3",
+      "startSlide": 58,
       "endSlide": 83,
       "loop": true
     },
